@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--        <TextInputLayoutMainView-->
+<!--            android:id="@+id/textInputLayoutMain"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:hint="Описание поля"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.TextInputLayoutMainViewWithNotes-->
+<!--            android:id="@+id/textInputLayoutMainPlaceholderViewWithNotes"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:hint="Описание поля c примечаниями"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutMain" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.TextInputLayoutMainViewWithNotesWithPasswordHint-->
+<!--            android:id="@+id/textInputLayoutMainPlaceholderViewWithNotesWithPostfixIcon"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:hint="Описание поля c примечаниями"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutMainPlaceholderViewWithNotes"-->
+<!--            app:passwordIcon="@drawable/ic_password_hint" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.TextInputLayoutMainViewWithNotesWithDropdown-->
+<!--            android:id="@+id/textInputLayoutMainPlaceholderViewWithNotesWithDropdown"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:hint="Описание поля c примечаниями"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutMainPlaceholderViewWithNotesWithPostfixIcon"-->
+<!--            app:passwordIcon="@drawable/ic_password_hint" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.PhoneNumberTextInputLayout-->
+<!--            android:id="@+id/phoneNumberTextInputLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:hint="+7(999)999-99-99"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutMainPlaceholderViewWithNotesWithDropdown" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.TextInput-->
+<!--            android:id="@+id/tiDefault"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/default_margin_2x"-->
+<!--            android:hint="Default Text Input"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/phoneNumberTextInputLayout" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.TextInput-->
+<!--            android:id="@+id/tiWithTitle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/default_margin_2x"-->
+<!--            android:hint="Titled Text Input"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tiDefault"-->
+<!--            app:title="Title goes here" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.TextInput-->
+<!--            android:id="@+id/tiWithTitleAndSubtitle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/default_margin_2x"-->
+<!--            android:hint="Titled and subtitled Text Input"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tiWithTitle"-->
+<!--            app:subtitle="Subtitle goes here"-->
+<!--            app:title="Title goes here" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.TextInput-->
+<!--            android:id="@+id/tiWithErrorDeafult"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/default_margin_2x"-->
+<!--            android:hint="Text Input with error default"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tiWithTitleAndSubtitle"-->
+<!--            app:title="Title goes here" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.TextInput-->
+<!--            android:id="@+id/tiWithErrorText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/default_margin_2x"-->
+<!--            android:hint="Text Input with error text"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tiWithErrorDeafult"-->
+<!--            app:subtitle="Subtitle goes here"-->
+<!--            app:title="Title goes here" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.TextInput-->
+<!--            android:id="@+id/tiWithDropdown"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/default_margin_2x"-->
+<!--            android:hint="Text Input with Dropdown"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tiWithErrorText"-->
+<!--            app:subtitle="Subtitle goes here"-->
+<!--            app:title="Title goes here" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.TextInputPassword-->
+<!--            android:id="@+id/tiPassword"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/default_margin_2x"-->
+<!--            android:hint="Text Input Password"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tiWithDropdown" />-->
+
+<!--        <com.betcity.mylibrary.customView.edittext.TextInputDropdown-->
+<!--            android:id="@+id/tiDropdown"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/default_margin_2x"-->
+<!--            android:hint="Text Input Dropdown"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tiPassword"/>-->
+<!--        -->
+    </androidx.constraintlayout.widget.ConstraintLayout>
